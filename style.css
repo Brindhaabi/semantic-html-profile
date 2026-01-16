@@ -1,7 +1,7 @@
 body {
             text-align: center;
             font-family: Arial, sans-serif;
-            background-color: grey;
+            background-color: #333;
         }
 
         img {
@@ -16,10 +16,10 @@ body {
         }
 
         h1, h2 {
-            color: #444;
+            color: #333;
         }
 
         p {
-            color: #666;
+            color: #555;
             line-height: 1.5;
         }
