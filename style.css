@@ -1,25 +1,41 @@
+/* Basic reset */
 body {
-            text-align: center;
-            font-family: Arial, sans-serif;
-            background-color: lightblue;
-        }
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
-        img {
-            border-radius: 50%;
-            width: 200px;
-        }
+/* NAVBAR FLEXBOX */
+.navbar {
+    display: flex;                /* Enables flexbox */
+    justify-content: space-between;/* Space between logo & links */
+    align-items: center;          /* Vertically center items */
+    padding: 15px;
+    background-color: #4f46e5;
+    color: white;
+}
 
-        header, section, footer {
-            margin: 20px auto;
-            padding: 10px;
-            max-width: 600px;
-        }
+/* Navigation links */
+.nav-links {
+    display: flex;                /* Horizontal menu */
+    gap: 20px;
+    list-style: none;
+}
 
-        h1, h2 {
-            color: #444;
-        }
+/* CARDS FLEXBOX */
+.card-container {
+    display: flex;                /* Flex container */
+    justify-content: center;      /* Center cards */
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;              /* Move to next line on small screens */
+}
 
-        p {
-            color: #666;
-            line-height: 1.5;
-        }
+/* Individual cards */
+.card {
+    background-color: #e5e7eb;
+    padding: 30px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
